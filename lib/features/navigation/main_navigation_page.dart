@@ -57,13 +57,13 @@ class _MainNavigationPageState extends State<MainNavigationPage> {
           actions: [
             TextButton(
               onPressed: () {
-                Navigator.of(context).pop(); // ปิด popup
+                Navigator.of(context).pop(); 
               },
               child: const Text('ยกเลิก'),
             ),
             ElevatedButton(
               onPressed: () {
-                Navigator.of(context).pop(); // ปิด popup
+                Navigator.of(context).pop(); 
                 Navigator.pushAndRemoveUntil(
                   context,
                   MaterialPageRoute(
