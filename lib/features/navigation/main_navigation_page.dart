@@ -32,7 +32,7 @@ class _MainNavigationPageState extends State<MainNavigationPage> {
 
   void _onItemTapped(int index) {
     if (index == 3) {
-      _showLogoutDialog(); // แสดง popup เมื่อกดปุ่ม Logout
+      _showLogoutDialog(); 
     } else {
       setState(() {
         _selectedIndex = index;
